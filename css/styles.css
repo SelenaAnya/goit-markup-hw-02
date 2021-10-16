@@ -15,7 +15,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    width: 1500px;
     font-size: 14px;
 }
 
@@ -88,7 +87,6 @@ span {
 
 .contacts {
     text-align: left;
-    width: 170px;
 }
 
 .contacts a {
