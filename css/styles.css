@@ -1,12 +1,11 @@
 :root {
     --primary-text-color: #212121;
     --title-text-color: #ffff;
-    --accent-text-color: #2196F3;
+    --accent-text-color: #2196f3;
     --header-text-color: #757575;
     --logo-text-color: black;
     --contact-text-color: rgba(255, 255, 255, 0.6);
 }
-
 
 * {
     margin: 0;
@@ -18,14 +17,14 @@ body {
     font-size: 14px;
 }
 
-h2, 
+h2,
 h3 {
-    color: var(--primary-text-color);   
+    color: var(--primary-text-color);
 }
 
 h2 {
     font-size: 36px;
-    color:var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 h3 {
     font-family: Roboto;
@@ -40,21 +39,16 @@ ul {
 }
 
 .header {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
-
 
 p {
     color: var(--header-text-color);
 }
 
-.section {
-    cursor: pointer;
-}
-
 /* ----------------header---------------- */
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 900px;
     color: var(--accent-text-color);
     text-decoration: none;
@@ -68,9 +62,8 @@ span {
     color: var(--logo-text-color);
 }
 
-
 .nav {
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .menu a {
@@ -110,7 +103,7 @@ span {
 }
 /* -----------------------filter ---------------------- */
 .btn {
-    background: #F5F4FA;
+    background: #f5f4fa;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     font-weight: 500;
@@ -121,33 +114,31 @@ span {
 .btn:hover,
 .btn:focus {
     color: var(--title-text-color);
-    background: #2196F3;
+    background: #2196f3;
 }
 
 .menu-btn .btn.current {
     color: var(--title-text-color);
-    background: #2196F3;
+    background: #2196f3;
 }
 
-.section .menu-btn {
+.container {
     cursor: pointer;
 }
 
-
 /* ----------------Peculiarities---------------- */
 
-
 .order {
-    background: #2F303A;
+    background: #2f303a;
     left: 0px;
     top: 80px;
 }
 
 h2 {
-   font-weight: 900;
-   letter-spacing: 0.06em;
-   text-align: center;
-   text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .business {
@@ -156,7 +147,7 @@ h2 {
 
 button {
     font-family: Roboto, sans-serif;
-    background-color: var(--accent-text-color) ;
+    background-color: var(--accent-text-color);
     text-align: center;
     padding: 10px 32px;
     left: 700px;
@@ -167,10 +158,10 @@ button {
     color: var(--title-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-} 
+}
 /*--------------- about us ---------------*/
 .team {
-    background: #F5F4FA;
+    background: #f5f4fa;
 }
 
 .text {
@@ -190,12 +181,11 @@ button {
     font-size: 16px;
 }
 
-
-
 /* -------------footer------------ */
 
-.container {
-    background: #2F303A;
+.footer {
+    background: #2f303a;
+    text-align-last: left;
 }
 
 .our-contacts {
@@ -205,11 +195,11 @@ button {
 
 .our-contacts {
     text-decoration: none;
-    color:var(--contact-text-color);
+    color: var(--contact-text-color);
 }
 
 .address {
-    color:var(--title-text-color);
+    color: var(--title-text-color);
     text-decoration: none;
 }
 .logo-footer {
@@ -227,4 +217,3 @@ button {
 .our-contacts-link a:focus {
     color: var(--accent-text-color);
 }
-
