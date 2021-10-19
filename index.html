@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>goit-markup-hw-02</title>
@@ -20,7 +22,7 @@
       <nav class="nav">
         <ul class="menu">
           <li class="menu-item">
-            <a href="#">Студия</a>
+            <a class="current" href="#">Студия</a>
           </li>
           <li class="menu-item">
             <a href="./portfolio.html">Портфолио</a>
@@ -168,21 +170,23 @@
       </section>
     </main>
 
-    <footer>
-      <a href="#" class="logo">Web<span>Studio</span></a>
-      <address class="our-contacts">
-        <ul>
-          <li>
-            <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li>
-            <a href="#" class="e-mail">info@example.com</a>
-          </li>
-          <li>
-            <a href="#" class="phone">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
+        <address class="our-contacts">
+          <ul class="our-contacts-link">
+            <li>
+              <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li>
+              <a href="#" class="e-mail">info@example.com</a>
+            </li>
+            <li>
+              <a href="#" class="tel">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

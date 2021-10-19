@@ -31,7 +31,7 @@ h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
@@ -47,6 +47,11 @@ ul {
 p {
     color: var(--header-text-color);
 }
+
+.section {
+    cursor: pointer;
+}
+
 /* ----------------header---------------- */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -100,13 +105,16 @@ span {
     color: var(--accent-text-color);
 }
 
+.menu-item .current {
+    color: var(--accent-text-color);
+}
 /* -----------------------filter ---------------------- */
 .btn {
     background: #F5F4FA;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     font-weight: 500;
-    
+    border: none;
 }
 
 .btn:active,
@@ -120,6 +128,11 @@ span {
     color: var(--title-text-color);
     background: #2196F3;
 }
+
+.section .menu-btn {
+    cursor: pointer;
+}
+
 
 /* ----------------Peculiarities---------------- */
 
@@ -145,15 +158,15 @@ button {
     font-family: Roboto, sans-serif;
     background-color: var(--accent-text-color) ;
     text-align: center;
-    padding: 10px, 32px;
+    padding: 10px 32px;
     left: 700px;
     letter-spacing: 0.06em;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     color: var(--title-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    /* border-radius: 4px;*/
+    border-radius: 4px;
 } 
 /*--------------- about us ---------------*/
 .team {
@@ -180,8 +193,12 @@ button {
 
 
 /* -------------footer------------ */
-.our-contacts {
+
+.container {
     background: #2F303A;
+}
+
+.our-contacts {
     height: 252px;
     font-style: normal;
 }
@@ -195,9 +212,19 @@ button {
     color:var(--title-text-color);
     text-decoration: none;
 }
+.logo-footer {
+    color: var(--title-text-color);
+}
 
 .e-mail,
-.phone {
+.tel {
     color: var(--contact-text-color);
     text-decoration: none;
 }
+
+.our-contacts-link a:active,
+.our-contacts-link a:hover,
+.our-contacts-link a:focus {
+    color: var(--accent-text-color);
+}
+
