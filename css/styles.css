@@ -23,13 +23,11 @@ h3 {
 }
 
 h2 {
-    font-size: 36px;
     color: var(--primary-text-color);
 }
+
 h3 {
-    font-family: Roboto;
     font-style: normal;
-    font-weight: 900;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
@@ -135,8 +133,6 @@ span {
 }
 
 h2 {
-    font-weight: 900;
-    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -144,6 +140,9 @@ h2 {
 .business {
     color: var(--title-text-color);
     line-height: 60px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 44px;
 }
 
 button {
