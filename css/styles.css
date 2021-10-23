@@ -27,7 +27,6 @@ h2 {
 }
 
 h3 {
-    font-style: normal;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
@@ -123,6 +122,10 @@ span {
 .container {
     cursor: pointer;
 }
+/* --------------------------team------------------ */
+.prew-text {
+    text-transform: none;
+}
 
 /* ----------------Peculiarities---------------- */
 
@@ -171,7 +174,13 @@ button {
     line-height: 24px;
     letter-spacing: 0.03em;
 }
-/* ---------project------- */
+
+.title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+/* -----а----project------- */
 
 .name-block {
     font-size: 18px;
@@ -203,6 +212,7 @@ button {
 .our-contacts {
     height: 252px;
     font-style: normal;
+    font-weight: 400;
 }
 
 .our-contacts {
