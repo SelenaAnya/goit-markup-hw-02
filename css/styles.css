@@ -135,17 +135,14 @@ span {
     top: 80px;
 }
 
-h2 {
-    /* text-align: center; */
-    text-transform: uppercase;
-}
-
 .business {
     color: var(--title-text-color);
     line-height: 60px;
     font-weight: 900;
     letter-spacing: 0.06em;
     font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 button {
