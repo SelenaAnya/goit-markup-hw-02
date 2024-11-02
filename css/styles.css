@@ -11,6 +11,7 @@ body {
 ul,
 li {
     list-style-type: none;
+    cursor: pointer;
 }
 
 a {
@@ -29,6 +30,13 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+nav,
+li,
+a,
+button {
+    cursor: pointer;
 }
 
 .header {
@@ -73,6 +81,7 @@ a {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
+    line-height: 24px;
 }
 
 .btn-business {
@@ -82,7 +91,50 @@ a {
     border: none;    
 }
 
+.about-block {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 24px;
+}
+
 h2,
 h3 {
     color:#2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.block-footer {
+    background-color: #2E2F42;
+}
+
+.footer {
+    color: #f4f4fd;
+
+
+}
+
+.logo-footer {
+    color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
