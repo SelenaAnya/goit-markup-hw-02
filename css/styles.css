@@ -1,16 +1,32 @@
-/*  */
 body {
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
     font-size: 14px;
-    
+    text-align: center;
+    width: 1440px;
+    /* justify-content: center; */
+    position: absolute;
+
 }
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 ul,
 li {
     list-style-type: none;
+    cursor: pointer;
 }
 
 a {
@@ -31,8 +47,22 @@ a {
     overflow: hidden;
 }
 
-.header {
-    text-align: justify;
+nav,
+li,
+a,
+button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.header-page {
+    /* text-align: center; */
+    justify-content: space-between;
+    display: flex;
+    width: 1128px;
+    margin-top: 24px;
+    margin-left: 115px;
+    margin-bottom: 24px;
 
 }
 
@@ -43,6 +73,7 @@ a {
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
     
 
 }
@@ -52,20 +83,60 @@ a {
 
 .nav {
     cursor: pointer;
-    display: inline-block;
+    display: flex;
     margin-right: auto;
     text-align:center; 
     font-size: 16px;
     letter-spacing: 0.02em;
-    font-weight: 400;
+    font-weight: 500;
+    margin-left: 76px;
+}
+
+.menu-item {
+    margin-right: 40px;
 }
 
 .contacts {
-    text-align: left;
+    font-style: normal;
+    text-align: right;
+    margin-left: 156px;
+}
+
+.contacts-item {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-right: 40px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 .baner {
     background-color: #2E2F42;
+}
+
+.baner {
+    width: 1440px;
+
 }
 
 .business {
@@ -73,16 +144,152 @@ a {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
+    width: 496px;
+    padding-top: 188px;
+    /* padding-bottom: 294px; */
+    margin-left: 472px;
+    margin-right: 472px;
+    text-align: center;
+    line-height: 60px;
 }
-
-.btn-business {
+button {
     color: #ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
-    border: none;    
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 188px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border-radius: 4%;
 }
 
-h2,
+.btn-business {
+    padding: 16px 32px;
+}
+
+.btn-business:active,
+.btn-business:hover,
+.btn-business:focus {
+    color: #ffffff;
+    background: #9747ff;
+    border-radius: 4px;
+}
+
+.about {
+    margin-top: 120px;
+    width: 1128px;
+    margin-bottom: 120px;    
+    display: flex;
+    margin-left: 156px;
+}
+
+.about-block {
+    width: 264px;
+    margin-right: 24px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    line-height: 24px;    
+}
+
 h3 {
+    font-family: "Roboto", sans-serif;
     color:#2E2F42;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.container-team {
+    width: 1440px;
+    background-color: #f4f4fd;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.team {
+    padding-top: 120px;
+    /* padding-left: 639px; */
+    padding-bottom: 70px;
+}
+
+.our-team {
+    margin-left: 24px;
+    background-color: #ffffff;
+    width: 264px;
+    height: 380px;
+    border-radius: 4%;
+    margin-bottom: 120px;
+}
+
+.team-card {
+    padding: 16px 32px;
+}
+
+.portfolio {
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.portfolio-bloc {
+    margin-left: 156px;
+    margin-bottom: 48px;
+}
+
+.our-portfolio {
+    margin-right: 24px;
+    height: 420px;
+    width: 360px;
+    text-align: left;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 48px;
+}
+
+.text-portfolio{
+    padding-left: 16px;
+    padding-top: 32px;
+}
+
+.block-footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+}
+
+.block-footer {
+    padding-top: 100px;
+    padding-left: 156px;
+    text-align: left;
+
+}
+
+
+.logo-footer {
+    color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.text-footer {
+    padding-top: 16px;
+    width: 264px;
+    /* height: 72px; */
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
 }

@@ -20,7 +20,7 @@
 <body>
     <!------------------------------------------Logo + menu------------->
     <header class="header container">
-<a href="#" class="logo">Web<span>Studio</span></a>
+<a href="#" class="logo">Web<span class="logo-text">Studio</span></a>
 <nav class="nav"> 
     <ul class="menu">
         <li class="menu-item">
@@ -45,7 +45,7 @@
 </ul>
     </header>
     <main>
-        <h1 hidden>Peculiarities</h1>
+        <h1 class="visually-hidden">Peculiarities</h1>
 
 <!--------------------Effective Solutions----------------------->
 
@@ -105,50 +105,126 @@
 
     <!--------------------------Our Team--------------------------->
     
-    <div class="container">
-        <h2>Our Team</h2>
-        <ul class="team">
+    <div class="container-team">
+        <h2 class="team">Our Team</h2>
+        <ul class="team-bloc">
             <li class="our-team"> 
                 <img src="./images/Mark Guerrero.jpg" 
                 width="264"
                 height="260"
                 alt="Mark Guerrero">
-                <h3>Mark Guerrero</h3>
-                <p class="text">Product Designer</p>
+                <div class="team-card">
+                    <h3>Mark Guerrero</h3>
+                    <p class="text">Product Designer</p>
+                </div>
             </li>
             <li class="our-team"> 
                 <img src="./images/Tom Ford.jpg" 
                 width="264"
                 height="260"
                 alt="Tom Ford">
-                <h3>Tom Ford</h3>
-                <p class="text">Frontend Developer</p>
+                <div class="team-card">
+                    <h3>Tom Ford</h3>
+                    <p class="text">Frontend Developer</p>
+                </div>
             </li>
              <li class="our-team">
                 <img src="./images/Camila Garcia.jpg" 
                 width="264"
                 height="260"
                 alt="Camila Garcia">
-                <h3>Camila Garcia</h3>
-                <p class="text">Marketing</p>
+                <div class="team-card">
+                    <h3>Camila Garcia</h3>
+                    <p class="text">Marketing</p>
+                </div>
             </li>
             <li class="our-team">
                 <img src="./images/Daniel Wilson.jpg" 
                 width="264" 
                 height="260" 
                 alt="Daniel Wilson">
-                <h3>Daniel Wilson</h3>
-                <p class="text">UI Designer</p>
+                <div class="team-card">
+                    <h3>Daniel Wilson</h3>
+                    <p class="text">UI Designer</p>
+                </div>
             </li>
         </ul>
     </div>
 </section>
+<section>
+    <!------------our portfolio----------------------->
+    <h2 class="portfolio">Our Portfolio</h2>
+        <div class="portfolio-bloc">
+            <ul class="card-portfolio">
+                <li class="our-portfolio">
+                    <img src="./images/Banking App.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Banking App">
+                    <div class="text-portfolio">
+                        <h3>Banking App</h3>
+                        <p class="text">App</p>
+                    </div>
+                </li>
+                <li class="our-portfolio">
+                    <img src="./images/Cashless Payment.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Cashless Payment">
+                    <div class="text-portfolio">
+                        <h3>Cashless Payment</h3>
+                        <p class="text">Marketing</p>
+                    </div>
+                </li>
+                <li class="our-portfolio">
+                    <img src="./images/Meditation App.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Meditation App">
+                    <div class="text-portfolio">
+                        <h3>Meditation AppMeditation App</h3>
+                        <p class="text">App</p>
+                    </div>
+                </li>
+                <li class="our-portfolio">
+                    <img src="./images/Taxi Service.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Taxi Service">
+                    <div class="text-portfolio">
+                        <h3>Taxi Service</h3>
+                        <p class="text">Marketing</p>
+                    </div>
+                </li>
+                <li class="our-portfolio">
+                    <img src="./images/Screen Illustrations.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Screen Illustrations">
+                    <div class="text-portfolio">
+                        <h3>Screen Illustrations</h3>
+                        <p class="text">Design</p>
+                    </div>
+                </li>
+                <li class="our-portfolio">
+                    <img src="./images/Online Courses.jpg" 
+                    width="360" 
+                    height="300" 
+                    alt="Online Courses">
+                    <div class="text-portfolio">
+                        <h3>Online Courses</h3>
+                        <p class="text">Marketing</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+</section>
     </main>
     <footer>
         <!----------------footer menu---------------------------->
-        <div>
-            <a href="#">Web<span class="logo-footer">Studio</span></a>
-            <p>Increase the flow of customers and sales for your 
+        <div class="block-footer">
+            <a class="logo" href="#">Web<span class="logo-footer">Studio</span></a>
+            <p class="text text-footer">Increase the flow of customers and sales for your 
                 business with digital marketing & growth solutions.</p>
         </div>
     </footer>
