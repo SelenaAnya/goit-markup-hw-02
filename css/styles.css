@@ -5,6 +5,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     font-size: 14px;
+    
 }
 
 ul,
@@ -16,12 +17,72 @@ a {
     text-decoration: none;
 }
 
-.header {
-    text-align: center;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-.logo {}
+.header {
+    text-align: justify;
 
-.nav {}
+}
 
-menu {}
+.logo {
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+
+}
+.logo-text {
+    color: #2E2F42;
+}
+
+.nav {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: auto;
+    text-align:center; 
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+.contacts {
+    text-align: left;
+}
+
+.baner {
+    background-color: #2E2F42;
+}
+
+.business {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+}
+
+.btn-business {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    border: none;    
+}
+
+h2,
+h3 {
+    color:#2E2F42;
+}
