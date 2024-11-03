@@ -57,14 +57,12 @@ button {
 }
 
 .header-page {
-    /* text-align: center; */
     justify-content: space-between;
     display: flex;
     width: 1128px;
     margin-top: 24px;
     margin-left: 115px;
     margin-bottom: 24px;
-
 }
 
 .logo {
@@ -92,6 +90,7 @@ button {
     letter-spacing: 0.02em;
     font-weight: 500;
     margin-left: 76px;
+    /* padding-bottom: 20px; */
 }
 
 .menu-item {
@@ -102,6 +101,7 @@ button {
     font-style: normal;
     text-align: right;
     margin-left: 156px;
+    display: block;
 }
 
 .contacts-item {
@@ -123,6 +123,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.e-mail {
+    margin-right: 40px;
 }
 
 .nav-link:hover,
