@@ -41,7 +41,7 @@ a {
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -75,9 +75,10 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
-    
+
 
 }
+
 .logo-text {
     color: #2E2F42;
 }
@@ -86,7 +87,7 @@ button {
     cursor: pointer;
     display: flex;
     margin-right: auto;
-    text-align:center; 
+    text-align: center;
     font-size: 16px;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -128,17 +129,17 @@ button {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+    color: #404bbf;
 }
 
 .baner {
     background-color: #2E2F42;
 }
 
-.baner {
+/* .baner {
     width: 1440px;
 
-}
+} */
 
 .business {
     color: #ffffff;
@@ -153,6 +154,7 @@ button {
     text-align: center;
     line-height: 60px;
 }
+
 button {
     color: #ffffff;
     background-color: #4D5AE5;
@@ -180,7 +182,7 @@ button {
 .about {
     margin-top: 120px;
     width: 1128px;
-    margin-bottom: 120px;    
+    margin-bottom: 120px;
     display: flex;
     margin-left: 156px;
 }
@@ -190,12 +192,12 @@ button {
     margin-right: 24px;
     text-align: left;
     letter-spacing: 0.02em;
-    line-height: 24px;    
+    line-height: 24px;
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
-    color:#2E2F42;
+    color: #2E2F42;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
@@ -256,7 +258,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-.text-portfolio{
+.text-portfolio {
     padding-left: 16px;
     padding-top: 32px;
 }
