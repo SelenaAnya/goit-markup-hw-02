@@ -152,10 +152,11 @@ button {
     width: 496px;
     padding-top: 188px;
     /* padding-bottom: 294px; */
-    margin-left: 472px;
-    margin-right: 472px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     line-height: 60px;
+    display: block;
 }
 
 button {
@@ -246,10 +247,15 @@ h2 {
 .portfolio {
     margin-top: 120px;
     margin-bottom: 72px;
+    text-align: center;
+}
+
+.card-portfolio {
+    display: block;
 }
 
 .portfolio-bloc {
-    margin-left: 156px;
+    margin-left: auto;
     margin-bottom: 48px;
 }
 
