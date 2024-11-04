@@ -5,12 +5,16 @@ body {
     background-color: #ffffff;
     font-size: 14px;
     text-align: center;
-    width: 1440px;
+    width: auto;
     /* justify-content: center; */
     position: absolute;
     display: block;
 
 }
+
+/* section {
+    width: 1440px;
+} */
 
 *::before,
 *::after {
@@ -59,7 +63,7 @@ button {
 .header-page {
     justify-content: space-between;
     display: flex;
-    width: 1128px;
+    width: auto;
     margin-top: 24px;
     margin-left: 115px;
     margin-bottom: 24px;
@@ -100,7 +104,7 @@ button {
 .contacts {
     font-style: normal;
     text-align: right;
-    margin-left: 156px;
+    margin-right: 156px;
     display: block;
 }
 
@@ -139,11 +143,6 @@ button {
 .baner {
     background-color: #2E2F42;
 }
-
-/* .baner {
-    width: 1440px;
-
-} */
 
 .business {
     color: #ffffff;
@@ -185,18 +184,19 @@ button {
 
 .about {
     margin-top: 120px;
-    width: 1128px;
+    width: auto;
     margin-bottom: 120px;
     display: flex;
     margin-left: 156px;
 }
 
 .about-block {
-    width: 264px;
+
     margin-right: 24px;
     text-align: left;
     letter-spacing: 0.02em;
     line-height: 24px;
+    width: auto;
 }
 
 h3 {
@@ -214,7 +214,7 @@ h3 {
 }
 
 .container-team {
-    width: 1440px;
+    width: auto;
     background-color: #f4f4fd;
 }
 
@@ -269,7 +269,7 @@ h2 {
 
 .block-footer {
     background-color: #2E2F42;
-    width: 1440px;
+    width: auto;
     height: 312px;
 }
 
