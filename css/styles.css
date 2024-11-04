@@ -184,14 +184,14 @@ button {
 }
 
 .container-about {
-    padding: 120px 0px;
-    width: 1440p;
+    padding: 120px 156px;
+    /* width: 1440px; */
 }
 
 .about {
     display: flex;
-    /* width: auto; */
-    /* margin-left: 156px; */
+    width: auto;
+    justify-content: center;
     text-align: center;
 
 }
@@ -203,6 +203,7 @@ button {
     letter-spacing: 0.02em;
     line-height: 24px;
     /* width: 264px; */
+    /* align-content: space-between; */
 }
 
 h3 {
