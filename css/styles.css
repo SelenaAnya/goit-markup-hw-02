@@ -183,21 +183,26 @@ button {
     border-radius: 4px;
 }
 
-.about {
-    margin-top: 120px;
-    width: auto;
-    margin-bottom: 120px;
-    display: flex;
-    margin-left: 156px;
+.container-about {
+    padding: 120px 0px;
+    width: 1440p;
 }
 
-.about-block {
+.about {
+    display: flex;
+    /* width: auto; */
+    /* margin-left: 156px; */
+    text-align: center;
 
+}
+
+
+.about-block {
     margin-right: 24px;
     text-align: left;
     letter-spacing: 0.02em;
     line-height: 24px;
-    width: auto;
+    /* width: 264px; */
 }
 
 h3 {
@@ -227,7 +232,6 @@ h2 {
 
 .team {
     padding-top: 120px;
-    /* padding-left: 639px; */
     padding-bottom: 70px;
 }
 
@@ -299,7 +303,6 @@ h2 {
 .text-footer {
     padding-top: 16px;
     width: 264px;
-    /* height: 72px; */
     color: #f4f4fd;
     font-size: 16px;
     line-height: 24px;
