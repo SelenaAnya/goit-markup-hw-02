@@ -60,6 +60,11 @@ button {
     display: inline-block;
 }
 
+.container {
+    width: 1440px;
+    justify-content: center;
+}
+
 .header-page {
     justify-content: space-between;
     display: flex;
