@@ -190,6 +190,7 @@ button {
 
 .container-about {
     padding: 120px 156px;
+
     /* width: 1440px; */
 }
 
@@ -223,7 +224,7 @@ h3 {
     padding-top: 8px;
 }
 
-.container-team {
+.about-team {
     width: auto;
     background-color: #f4f4fd;
 }
