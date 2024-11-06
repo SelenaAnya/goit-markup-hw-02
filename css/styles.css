@@ -261,9 +261,13 @@ h2 {
     padding: 16px 32px;
 }
 
+.portfolio-team {
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
 .portfolio {
     margin-top: 120px;
-    margin-bottom: 72px;
     text-align: center;
 }
 
@@ -274,7 +278,6 @@ h2 {
 
 .card-portfolio {
     display: flex;
-    /* padding-left: 156px; */
     justify-content: center;
 }
 
