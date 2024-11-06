@@ -299,13 +299,21 @@ h2 {
     padding-top: 32px;
 }
 
-.block-footer {
+/* ----------------footer menu---------------------------- */
+
+.footer {
     background-color: #2E2F42;
-    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.block-footer {
     height: 312px;
     padding-top: 100px;
     padding-left: 156px;
     text-align: left;
+    width: 1440px;
+
 }
 
 
@@ -326,5 +334,4 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
