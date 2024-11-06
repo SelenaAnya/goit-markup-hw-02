@@ -7,7 +7,6 @@ body {
     text-align: center;
     width: auto;
     /* justify-content: center; */
-    position: absolute;
     display: block;
 
 }
@@ -36,6 +35,7 @@ li {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .visually-hidden {
@@ -63,15 +63,16 @@ button {
 .container {
     width: 1440px;
     justify-content: center;
+    text-align: center;
 }
 
 .header-page {
     justify-content: space-between;
     display: flex;
     width: auto;
-    margin-top: 24px;
+    padding: 24px 156px;
     margin-left: 115px;
-    margin-bottom: 24px;
+
 }
 
 .logo {
@@ -82,6 +83,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
+    line-height: 1.17;
 
 
 }
@@ -156,7 +158,6 @@ button {
     letter-spacing: 0.02em;
     width: 496px;
     padding-top: 188px;
-    /* padding-bottom: 294px; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -188,17 +189,19 @@ button {
     border-radius: 4px;
 }
 
+/* .container-about {
+    margin: 120px 156px; */
+
+/* width: 1440px; */
+/* } */
+
 .container-about {
-    padding: 120px 156px;
-
-    /* width: 1440px; */
-}
-
-.about {
     display: flex;
     width: auto;
     justify-content: center;
     text-align: center;
+    padding: 120px 156px;
+
 }
 
 .about-block {
@@ -206,7 +209,7 @@ button {
     text-align: left;
     letter-spacing: 0.02em;
     line-height: 24px;
-    /* width: 264px; */
+    width: 264px;
     /* align-content: space-between; */
 }
 
@@ -264,13 +267,19 @@ h2 {
     text-align: center;
 }
 
-.card-portfolio {
-    display: block;
-}
 
 .portfolio-bloc {
-    margin-left: auto;
     margin-bottom: 48px;
+}
+
+.card-portfolio {
+    display: flex;
+    /* padding-left: 156px; */
+    justify-content: center;
+}
+
+.img-portfolio {
+    height: 300px;
 }
 
 .our-portfolio {
@@ -297,7 +306,6 @@ h2 {
     padding-top: 100px;
     padding-left: 156px;
     text-align: left;
-
 }
 
 
@@ -305,9 +313,10 @@ h2 {
     color: #f4f4fd;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    line-height: 1.17;
+
 }
 
 .text-footer {
@@ -315,7 +324,7 @@ h2 {
     width: 264px;
     color: #f4f4fd;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
 }
