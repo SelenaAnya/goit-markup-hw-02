@@ -174,7 +174,7 @@ button {
     line-height: 1.24;
 }
 
-.about-company {
+.target-company {
     font-family: "Roboto", sans-serif;
     color: #2e2f42;
     letter-spacing: 0.02em;
@@ -191,22 +191,37 @@ button {
 
 /* -------------------------Our Team--------------------------- */
 
-.about-team {
-    background-color: #f4f4fd;
-}
-
 .block-team {
     background-color: #f4f4fd;
 }
 
 .team {
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.our-team {
+    border-left-color: #ffffff;
+}
+
+.representative {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
