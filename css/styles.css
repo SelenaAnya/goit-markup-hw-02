@@ -16,7 +16,7 @@ body {
 }
 
 ul,
-li {
+li ol {
     list-style-type: none;
     cursor: pointer;
 }
@@ -42,7 +42,7 @@ a {
 
 nav,
 li,
-a,
+ol a,
 button {
     cursor: pointer;
     display: inline-block;
@@ -165,6 +165,7 @@ button {
 
 /* ----------------------About the company-------------------------------- */
 
+
 .about-block {
     margin-right: 24px;
     letter-spacing: 0.02em;
@@ -193,10 +194,18 @@ button {
     background-color: #f4f4fd;
 }
 
-h2 {
+.block-team {
+    background-color: #f4f4fd;
+}
+
+.team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.4;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 
