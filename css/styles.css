@@ -76,32 +76,32 @@ button {
 }
 
 .logo {
-    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: left;
-    line-height: 1.17;
+    color: #4d5ae5;
+
+    /* text-align: left; */
+
 }
 
-.logo-text {
+.logo-header .logo-text {
     color: #2e2f42;
-    font-weight: 700;
-    font-size: 18px;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
-    line-height: 1.17;
 }
+
+.footer-logo .logo-text {
+    color: #f4f4fd;
+}
+
 
 .nav {
     cursor: pointer;
-    display: flex;
+    /* display: flex;
     margin-right: auto;
-    text-align: center;
+    text-align: center; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -110,15 +110,23 @@ button {
     /* padding-bottom: 20px; */
 }
 
-/* .menu-item {
+/* 
+.menu-item {
     margin-right: 40px;
 } */
 
 .contacts {
     font-style: normal;
-    text-align: right;
-    /* margin-right: 156px;
+    /* text-align: right;
+    margin-right: 156px;
     display: block; */
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contacts-item {
@@ -142,10 +150,13 @@ button {
     color: #434455;
 }
 
+
 .e-mail {
     margin-right: 40px;
 }
 
+.menu-link:hover,
+.menu-link:focus,
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
