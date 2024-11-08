@@ -308,6 +308,8 @@ h2 {
     /* width: 1440px; */
 }
 
+
+
 .logo-footer {
     color: #f4f4fd;
     font-weight: 700;
@@ -318,7 +320,7 @@ h2 {
 }
 
 .text-footer {
-    padding-top: 16px;
+    /* padding-top: 16px; */
     width: 264px;
     color: #f4f4fd;
     font-size: 16px;
