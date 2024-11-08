@@ -61,6 +61,10 @@ button {
     width: 1440px;
     justify-content: center;
     text-align: center;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+     }
 } */
 
 .header-page {
