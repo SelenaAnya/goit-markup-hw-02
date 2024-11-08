@@ -137,24 +137,26 @@ button {
 }
 
 .business {
-    color: #ffffff;
-    font-weight: 700;
     font-size: 56px;
-    letter-spacing: 0.02em;
-    text-align: center;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    /* font-weight: 700; */
+    cursor: pointer;
 }
 
 .btn-business {
-    color: #ffffff;
     background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
-.btn-business:active,
+/* .btn-business:active, */
 .btn-business:hover,
 .btn-business:focus {
     color: #ffffff;
