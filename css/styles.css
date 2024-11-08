@@ -256,7 +256,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+
 }
 
 /* ----------------footer menu---------------------------- */
@@ -275,20 +275,20 @@ button {
     /* width: 1440px; */
 }
 
-.logo-footer {
-    color: #f4f4fd;
+.footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
+    color: #f4f4fd;
 }
 
 .text-footer {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
     /* padding-top: 16px; */
     /* width: 264px; */
-    color: #f4f4fd;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
