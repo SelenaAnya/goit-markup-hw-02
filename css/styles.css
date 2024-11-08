@@ -88,6 +88,13 @@ button {
 
 .logo-text {
     color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.17;
 }
 
 .nav {
