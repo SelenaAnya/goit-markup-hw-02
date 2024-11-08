@@ -10,9 +10,9 @@ body {
     display: block;
 }
 
-section {
+/* section {
     width: 1440px;
-}
+} */
 
 *::before,
 *::after {
