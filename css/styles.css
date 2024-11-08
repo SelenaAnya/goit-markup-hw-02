@@ -135,13 +135,9 @@ button {
 }
 
 /* --------------------Effective Solutions----------------------- */
-.section-order {
+.order {
     border-color: #2e2f42;
 }
-
-/* .baner {
-    background-color: #2e2f42;
-} */
 
 .business {
     font-size: 56px;
@@ -149,7 +145,6 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    /* font-weight: 700; */
     cursor: pointer;
 }
 
