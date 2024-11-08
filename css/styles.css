@@ -116,15 +116,10 @@ button {
 }
 
 .menu-link:hover,
-.menu-link:focus
-{
+.menu-link:focus {
     color: #404bbf;
 }
 
-.nav:hover,
-.nav:focus,
-.nav-link:hover,
-.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
