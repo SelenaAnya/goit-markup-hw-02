@@ -119,10 +119,14 @@ button {
     margin-right: 40px;
 }
 
+.menu-link:hover,
+.menu-link:focus
+{
+    color: #404bbf;
+}
+
 .nav:hover,
 .nav:focus,
-.menu-link:hover,
-.menu-link:focus,
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -131,10 +135,13 @@ button {
 }
 
 /* --------------------Effective Solutions----------------------- */
-
-.baner {
-    background-color: #2e2f42;
+.section-order {
+    border-color: #2e2f42;
 }
+
+/* .baner {
+    background-color: #2e2f42;
+} */
 
 .business {
     font-size: 56px;
@@ -282,7 +289,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .text-footer {
