@@ -110,12 +110,16 @@ button {
     /* padding-bottom: 20px; */
 }
 
+.menu-link {
+    color: #2e2f42;
+}
+
 /* 
 .menu-item {
     margin-right: 40px;
 } */
 
-.contacts {
+.contacts-list {
     font-style: normal;
     /* text-align: right;
     margin-right: 156px;
