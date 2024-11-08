@@ -169,8 +169,8 @@ button {
     font-weight: 500;
     border: none;
     /* margin-top: 48px;
-    margin-bottom: 188px;
-    line-height: 24px; */
+    margin-bottom: 188px;*/
+    line-height: 1.24;
     letter-spacing: 0.03em;
     border-radius: 4%;
 }
@@ -188,18 +188,17 @@ button {
 }
 
 /* .container-about {
-    margin: 120px 156px; */
+    margin: 120px 156px;
+    width: 1440px; 
+ } */
 
-/* width: 1440px; */
-/* } */
-
-/* .container-about {
+.container-about {
     display: flex;
     width: auto;
     justify-content: center;
     text-align: center;
     padding: 120px 156px;
-} */
+}
 
 .about-block {
     margin-right: 24px;
@@ -229,6 +228,8 @@ h3 {
     padding-top: 8px;
 }
 
+/* -------------------------Our Team--------------------------- */
+
 .about-team {
     width: auto;
     background-color: #f4f4fd;
@@ -257,6 +258,8 @@ h2 {
 .team-card {
     padding: 16px 32px;
 }
+
+/* ------------our portfolio----------------------- */
 
 .portfolio-team {
     justify-content: center;
