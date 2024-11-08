@@ -14,10 +14,10 @@ section {
     width: 1440px;
 }
 
-/* *::before,
+*::before,
 *::after {
     box-sizing: border-box;
-} */
+}
 
 * {
     margin: 0;
