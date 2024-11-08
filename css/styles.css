@@ -4,10 +4,6 @@ body {
     color: #434455;
     background-color: #ffffff;
     font-size: 14px;
-
-    /* *::before,
-*::after {
-    box-sizing: border-box;*/
 }
 
 * {
@@ -165,23 +161,16 @@ button {
     background: #9747ff;
 }
 
-
-
-/* ----------------------About the company-------------------------------- */
-
-
 .about-block {
-    /* margin-right: 24px; */
     letter-spacing: 0.02em;
     line-height: 1.24;
 }
 
 .target-company {
-    font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .text {
@@ -191,14 +180,12 @@ button {
     color: #434455;
 }
 
-/* -------------------------Our Team--------------------------- */
 
 .block-team {
     background-color: #f4f4fd;
 }
 
 .team-items {
-    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
