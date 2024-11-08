@@ -7,26 +7,26 @@ body {
 
     /* *::before,
 *::after {
-    box-sizing: border-box;
-} */
+    box-sizing: border-box;*/
+}
 
-    * {
-        margin: 0;
-        padding: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    ul,
-    li {
-        list-style-type: none;
-        cursor: pointer;
-    }
+ul,
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
 
-    a {
-        text-decoration: none;
-        cursor: pointer;
-    }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
-    /* .visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -40,208 +40,208 @@ body {
     overflow: hidden;
 } */
 
-    nav,
-    li,
-    a,
-    button {
-        cursor: pointer;
-        display: inline-block;
-    }
+nav,
+li,
+a,
+button {
+    cursor: pointer;
+    display: inline-block;
+}
 
-    .logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
-    .logo-header .logo-text {
-        color: #2e2f42;
-    }
+.logo-header .logo-text {
+    color: #2e2f42;
+}
 
-    .footer-logo .logo-text {
-        color: #f4f4fd;
-    }
-
-
-    .nav {
-        cursor: pointer;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        font-weight: 500;
-    }
-
-    .menu-link {
-        color: #2e2f42;
-    }
-
-    .contacts-list {
-        font-style: normal;
-    }
-
-    .contacts-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
-
-    .contacts-item {
-        font-weight: 400;
-        letter-spacing: 0.02em;
-        margin-right: 40px;
-    }
-
-    .nav-item {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
-
-    .contacts-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
-
-    .contacts {
-        font-style: normal;
-    }
-
-    .e-mail {
-        margin-right: 40px;
-    }
-
-    .nav:hover,
-    .nav:focus,
-    .menu-link:hover,
-    .menu-link:focus,
-    .nav-link:hover,
-    .nav-link:focus,
-    .contacts-link:hover,
-    .contacts-link:focus {
-        color: #404bbf;
-    }
-
-    /* --------------------Effective Solutions----------------------- */
-
-    .section-order {
-        background-color: #2e2f42;
-    }
-
-    .business {
-        color: #ffffff;
-        font-weight: 700;
-        font-size: 56px;
-        letter-spacing: 0.02em;
-        text-align: center;
-        line-height: 1.07;
-    }
-
-    .btn-business {
-        color: #ffffff;
-        background-color: #4d5ae5;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-    }
-
-    .btn-business:active,
-    .btn-business:hover,
-    .btn-business:focus {
-        color: #ffffff;
-        background: #9747ff;
-    }
+.footer-logo .logo-text {
+    color: #f4f4fd;
+}
 
 
+.nav {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
 
-    /* ----------------------About the company-------------------------------- */
+.menu-link {
+    color: #2e2f42;
+}
 
-    .about-block {
-        margin-right: 24px;
-        letter-spacing: 0.02em;
-        line-height: 1.24;
-    }
+.contacts-list {
+    font-style: normal;
+}
 
-    .about-company {
-        font-family: "Roboto", sans-serif;
-        color: #2e2f42;
-        letter-spacing: 0.02em;
-        font-weight: 500;
-        font-size: 20px;
-    }
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
-    .text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
+.contacts-item {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-right: 40px;
+}
 
-    /* -------------------------Our Team--------------------------- */
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-    .about-team {
-        background-color: #f4f4fd;
-    }
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
-    h2 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.4;
-    }
+.contacts {
+    font-style: normal;
+}
+
+.e-mail {
+    margin-right: 40px;
+}
+
+.nav:hover,
+.nav:focus,
+.menu-link:hover,
+.menu-link:focus,
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+/* --------------------Effective Solutions----------------------- */
+
+.section-order {
+    background-color: #2e2f42;
+}
+
+.business {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.07;
+}
+
+.btn-business {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn-business:active,
+.btn-business:hover,
+.btn-business:focus {
+    color: #ffffff;
+    background: #9747ff;
+}
 
 
 
+/* ----------------------About the company-------------------------------- */
 
-    .our-team {
-        background-color: #ffffff;
-    }
+.about-block {
+    margin-right: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.24;
+}
 
+.about-company {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+}
 
-    /* ------------our portfolio----------------------- */
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* -------------------------Our Team--------------------------- */
+
+.about-team {
+    background-color: #f4f4fd;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+}
 
 
 
 
-    /* ----------------footer menu---------------------------- */
+.our-team {
+    background-color: #ffffff;
+}
 
-    .footer {
-        background-color: #2e2f42;
-        /* justify-content: center;
+
+/* ------------our portfolio----------------------- */
+
+
+
+
+/* ----------------footer menu---------------------------- */
+
+.footer {
+    background-color: #2e2f42;
+    /* justify-content: center;
     display: flex;
 } */
 
-        /* .block-footer {
+    /* .block-footer {
     height: 312px;
     padding-top: 100px;
     padding-left: 156px;
     text-align: left;
     /* width: 1440px; */
-    }
+}
 
-    .logo-footer {
-        color: #f4f4fd;
-        font-weight: 700;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        line-height: 1.17;
-    }
+.logo-footer {
+    color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
 
-    .text-footer {
-        /* padding-top: 16px; */
-        /* width: 264px; */
-        color: #f4f4fd;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+.text-footer {
+    /* padding-top: 16px; */
+    /* width: 264px; */
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
