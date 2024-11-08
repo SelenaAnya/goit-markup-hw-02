@@ -10,9 +10,9 @@ body {
     display: block;
 }
 
-/* section {
+section {
     width: 1440px;
-} */
+}
 
 /* *::before,
 *::after {
@@ -145,6 +145,8 @@ button {
     color: #404bbf;
 }
 
+/* --------------------Effective Solutions----------------------- */
+
 .baner {
     background-color: #2e2f42;
 }
@@ -192,6 +194,7 @@ button {
     width: 1440px; 
  } */
 
+/* ----------------------About the company-------------------------------- */
 .container-about {
     display: flex;
     width: auto;
