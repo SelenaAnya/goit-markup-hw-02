@@ -75,6 +75,12 @@ button {
     color: #2e2f42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+
 .contacts-list {
     font-style: normal;
 }
@@ -115,10 +121,6 @@ button {
     margin-right: 40px;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: #404bbf;
-}
 
 .contacts-link:hover,
 .contacts-link:focus {
