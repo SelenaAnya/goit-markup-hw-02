@@ -12,7 +12,8 @@ body {
 }
 
 ul,
-li ol {
+li,
+ol {
     list-style-type: none;
     cursor: pointer;
 }
@@ -155,8 +156,9 @@ button {
 /* .btn-business:active, */
 .btn-business:hover,
 .btn-business:focus {
-    color: #ffffff;
-    background: #9747ff;
+    background-color: #404BBF;
+    /* color: #ffffff;
+    background: #9747ff; */
 }
 
 .about-block {
