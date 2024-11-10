@@ -41,7 +41,7 @@ li,
 ol a,
 button {
     cursor: pointer;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .logo {
