@@ -39,7 +39,8 @@ a {
 
 nav,
 li,
-ol a,
+ol,
+a,
 button {
     cursor: pointer;
     /* display: inline-block; */
