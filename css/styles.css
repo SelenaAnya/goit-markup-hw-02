@@ -6,10 +6,10 @@ body {
     font-size: 14px;
 }
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 ul,
 li,
@@ -23,27 +23,12 @@ a {
     cursor: pointer;
 }
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
-
 nav,
 li,
 ol,
 a,
 button {
     cursor: pointer;
-    /* display: inline-block; */
 }
 
 .logo {
@@ -97,7 +82,7 @@ button {
 .contacts-item {
     font-weight: 400;
     letter-spacing: 0.02em;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .nav-item {
@@ -119,9 +104,9 @@ button {
     font-style: normal;
 }
 
-.e-mail {
+/* .e-mail {
     margin-right: 40px;
-}
+} */
 
 
 .contacts-link:hover,
@@ -138,7 +123,6 @@ button {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     cursor: pointer;
@@ -189,7 +173,6 @@ button {
 .title-team {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -220,7 +203,6 @@ button {
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
